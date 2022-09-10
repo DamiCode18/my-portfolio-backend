@@ -28,8 +28,15 @@
     "url": {
       "type": "string"
     },
-    "image": {
-      "type": "string"
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
